@@ -2,7 +2,7 @@
 Utilização da biblioteca socket para realizar a comunicação entre processos via socket. 
 
 ## Visão geral (funcionalidades)
-Nesta aplicação será possível enviar mensagens de um (ou mais) cliente para um servidor usando os protocolos TCP, UDP e usando threads. Para que mais de um cliente envie mensagens para o servidor, será necessário usar o conteúdo que está em **/src/thread**.
+Nesta aplicação será possível enviar mensagens de um (ou mais) cliente para um servidor usando os protocolos TCP (protocolo orientado a conexão), UDP (protocolo orientado a data gramas) e usando threads (fluxos de processos). Para que mais de um cliente envie mensagens para o servidor, será necessário usar o conteúdo que está em **/src/thread**.
 
 ## Pré-requisitos
 - Python3
